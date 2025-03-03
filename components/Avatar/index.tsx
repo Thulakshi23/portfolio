@@ -16,7 +16,7 @@ const AvatarImages = {
 }
 
 declare global {
-  interface Window {
+  interface Window { 
     preloadedPictures?: HTMLImageElement[]
   }
 }
